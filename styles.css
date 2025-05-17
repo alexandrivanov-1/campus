@@ -1,0 +1,52 @@
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #f9f9f9;
+    color: #222;
+}
+header {
+    background: #002d72 url('wave.png') no-repeat bottom;
+    background-size: cover;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+header p {
+    font-size: 1.2em;
+}
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: white;
+    color: #002d72;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.about {
+    padding: 40px 20px;
+    background: white;
+}
+.about h2 {
+    font-size: 2em;
+}
+.about ul {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+footer {
+    background: #002d72;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
